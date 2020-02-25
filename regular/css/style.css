@@ -2559,7 +2559,7 @@ label.radios {
     font-size: 24px;
   }
   .main_nav{
-    background-color: #818181;
+    background-color: #1a1a1a;
   }
   .sidebar{
     padding: 30px 10px;
@@ -2681,7 +2681,7 @@ label.radios {
       margin-left: 55px;
   }
   .main_nav{
-    background-color: #818181 !important;
+    background-color: #1a1a1a !important;
   }
   .about_myskill h2 {
       font-size: 24px;
