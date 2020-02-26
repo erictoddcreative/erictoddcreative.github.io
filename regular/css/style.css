@@ -2240,7 +2240,7 @@ label.radios {
 ============================================================*/
 @media (max-width: 991px){
   .main_nav{
-    background-color: #1a1a1a;
+    background-color: #1a1a1a !important;
   }
   .mainbanner_content p{
     width: 71%;
@@ -2403,7 +2403,7 @@ label.radios {
       font-size: 18px;
   }
   .main_nav{
-    background-color: #1a1a1a;
+    background-color: #1a1a1a !important;
   }
   .sidebar img{
       margin-bottom: 20px;
@@ -2563,7 +2563,7 @@ label.radios {
     font-size: 24px;
   }
   .main_nav{
-    background-color: #1a1a1a;
+    background-color: #1a1a1a !important;
   }
   .sidebar{
     padding: 30px 10px;
