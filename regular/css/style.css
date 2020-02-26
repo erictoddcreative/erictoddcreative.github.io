@@ -490,7 +490,7 @@ header{
     opacity: 1;
 }
 .navbar-nav .nav-item .nav-link.active:before{
-    opacity: 0;
+    opacity: 1;
 }
 /*==================================================================================
 09.   Side Nav menu
