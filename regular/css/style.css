@@ -49,13 +49,14 @@ Table of CSS Content arrage with every section name
 	Typography links 
  	Import Google Fonts
 =====================================================================================*/
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i,800,800i|Poppins:400,400i,600,600i,700,700i,800,800i");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i,800,800i|poppins:400,400i,600,600i,700,700i,800,800i");
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 /*===================================================================================
 01.		Default Css
 =====================================================================================*/
 body{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', ;
 	font-size: 15px;
 	line-height: 28px;
 }
@@ -107,7 +108,7 @@ ul li{
 }
 a{
 	display: inline-block;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', ;
 }
 a:hover,a:focus,a.active{
 	text-decoration: none !important;
@@ -123,7 +124,7 @@ a:hover,a:focus,a.active{
 .btn{
     padding: 10px 30px;
     font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', ;
     border-radius: 0px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -444,7 +445,7 @@ header{
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: 2px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', ;
 }
 .navbar-brand img{
 	width: 123px;
@@ -486,10 +487,10 @@ header{
     height: 2px;
     left: 0px;
     bottom: 0px;
-    opacity: 0;
+    opacity: 1;
 }
 .navbar-nav .nav-item .nav-link.active:before{
-    opacity: 1;
+    opacity: 0;
 }
 /*==================================================================================
 09.   Side Nav menu
@@ -909,7 +910,7 @@ ul#menu li a{
 	float: left;
 	margin: 0px 15px;
 	cursor: pointer;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', ;
 	font-size: 16px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -989,7 +990,7 @@ ul#menu li a{
   padding: 40px 30px;
 }
 .table h1{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', ;
 }
 .table ul li{
   padding: 7px;
@@ -2402,7 +2403,7 @@ label.radios {
       font-size: 18px;
   }
   .main_nav{
-    background-color: #818181;
+    background-color: #1a1a1a;
   }
   .sidebar img{
       margin-bottom: 20px;
