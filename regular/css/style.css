@@ -2241,6 +2241,7 @@ label.radios {
 @media (max-width: 991px){
   .main_nav{
     background-color: #1a1a1a !important;
+    z-index: 99;
   }
   .mainbanner_content p{
     width: 71%;
@@ -2404,6 +2405,7 @@ label.radios {
   }
   .main_nav{
     background-color: #1a1a1a !important;
+    z-index: 99;
   }
   .sidebar img{
       margin-bottom: 20px;
@@ -2564,6 +2566,7 @@ label.radios {
   }
   .main_nav{
     background-color: #1a1a1a !important;
+    z-index: 99;
   }
   .sidebar{
     padding: 30px 10px;
@@ -2686,6 +2689,7 @@ label.radios {
   }
   .main_nav{
     background-color: #1a1a1a !important;
+    z-index: 99;
   }
   .about_myskill h2 {
       font-size: 24px;
