@@ -4,7 +4,6 @@ $errors = '';								/*==================================*/
 $myemail = 'erictoddcreative@gmail.com';		//Put Your email address here.
 if(empty($_POST['name'])  ||				/*==================================*/
    empty($_POST['email']) ||
-   empty($_POST['subject']) || 
    empty($_POST['message']))
 {
     $errors .= "\n Error: all fields are required";
@@ -12,7 +11,6 @@ if(empty($_POST['name'])  ||				/*==================================*/
 
 $first = $_POST['name'];
 $email_address = $_POST['email'];
-$subject = $_POST['subject']; 
 $message = $_POST['message']; 
 
 if (!preg_match(
@@ -25,7 +23,7 @@ $email_address))
 if( empty($errors))
 {
 	$to = $myemail;
-	$email_subject = "$subject";
+	$email_subject = "New Website Contact";
 	$email_body = "You have received a new message from: $first". 
 	" Here are the details:\n $message"; 
 															/*==========================================*/
