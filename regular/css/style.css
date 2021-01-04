@@ -1196,6 +1196,7 @@ ul#menu li a{
   border-radius: 0px;
   border: none;
   border-bottom: 1px solid;
+  color: white;
 }
 .form-control:focus{
     outline: 0;
@@ -1212,7 +1213,7 @@ ul#menu li a{
   margin: auto 0;
   position: absolute;
   text-align: left;
-  width: 100%
+  width: 100%;
 }
 #success, #error {
   display: none;
