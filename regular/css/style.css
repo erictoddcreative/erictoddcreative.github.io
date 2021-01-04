@@ -1230,6 +1230,9 @@ ul#menu li a{
 #success {
   color: #31bb15
 }
+#error {
+  color: #ee4036
+}
 .contact_message .error{
   font-weight: 300;
   font-size: 13px;
