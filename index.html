@@ -14,12 +14,12 @@
         <link href="assets/css/style.css" rel="stylesheet" type="text/css">
 
 		<!-- favicon -->
-		<link rel="icon" href="assets/images/logo/logo-loader.png">
+		<link rel="icon" href="assets/images/logo/icon.svg">
 	</head>
 	<body class="loader">
 		<!-- loading start -->
 		<div class="loading">
-		    <img class="logo-loading" src="assets/images/logo/logo-loader.png" alt="logo">
+		    <img class="logo-loading" src="assets/images/logo/icon.svg" alt="logo">
 	    </div><!-- loading end -->
 	    
 		<!-- pointer start -->
@@ -41,8 +41,8 @@
 			    <!-- logo start -->
 				<a href="index.html" class="logo pointer-large animsition-link">
 					<div class="logo-img-box">
-				        <img class="logo-white" src="assets/images/logo/logo-white.png" alt="logo">
-				        <img class="logo-black" src="assets/images/logo/logo-black.png" alt="logo">
+				        <img class="logo-white" src="assets/images/logo/logo-on-dark.svg" alt="logo">
+				        <img class="logo-black" src="assets/images/logo/logo-on-white.svg" alt="logo">
 			        </div>
 		        </a><!-- logo end -->
 		        
@@ -57,7 +57,7 @@
 		<!-- Nav
 			<nav class="nav-container dark-bg-1">
 				<div class="nav-logo">
-					<img src="assets/images/logo/logo-white.png" alt="logo">
+					<img src="assets/images/logo/logo-on-dark.svg" alt="logo">
 				</div>
 				
 				<div class="menu-close pointer-large"></div>
@@ -110,11 +110,12 @@
 						<button class="filter-button-box pointer-small" data-filter=".sports">
 							<span class="filter-button-flip" data-text="Sports">Sports</span>
 						</button>
-						<!--
-							<button class="filter-button-box pointer-small" data-filter=".uiux">
-								<span class="filter-button-flip" data-text="UI/UX">UI/UX</span>
-							</button>
-						-->
+						<button class="filter-button-box pointer-small" data-filter=".product">
+							<span class="filter-button-flip" data-text="Product">Product</span>
+						</button>
+						<button class="filter-button-box pointer-small" data-filter=".research">
+							<span class="filter-button-flip" data-text="Research">Research</span>
+						</button>
 						<button class="filter-button-box pointer-small" data-filter=".branding">
 							<span class="filter-button-flip" data-text="Branding">Branding</span>
 						</button>
@@ -123,6 +124,34 @@
 					
 					<!-- works start -->				
                     <div class="works">
+						<!-- grid-item start -->
+						<a href="researchstudy1.html" class="animsition-link grid-item research product">
+                            <div class="work_item pointer-large hover-box hidden-box">
+                                <img class="hover-img" src="assets/images/projects/researchstudy1/slides-presentation-tall.png" alt="">
+                                <div class="works-content">
+                    	            <span class="small-title-oswald red-color work-title-overlay">research</span>
+									<h3 class="title-style text-color-4">
+										<span class="work-title-overlay work-title-delay01">D10 Client</span><br>
+										<span class="work-title-overlay work-title-delay02">Research</span><br>
+										<span class="work-title-overlay work-title-delay03">Study 1</span>
+									</h3>
+                                </div>
+                            </div>
+                        </a><!-- grid-item end -->
+						<!-- grid-item start -->
+                        <a href="icepackbrand.html" class="animsition-link grid-item sports branding">
+                            <div class="work_item pointer-large hover-box hidden-box">
+                                <img class="hover-img" src="assets/images/projects/icepack-brand/presentation.png" alt="">
+                                <div class="works-content">
+                    	            <span class="small-title-oswald red-color work-title-overlay">branding</span>
+									<h3 class="title-style text-color-4">
+										<span class="work-title-overlay work-title-delay01">Icepack</span><br>
+										<span class="work-title-overlay work-title-delay02">Hockey</span><br>
+										<span class="work-title-overlay work-title-delay03">Brand</span>
+									</h3>
+                                </div>
+                            </div>
+                        </a><!-- grid-item end -->
 	                    <!-- grid-item start -->
 						<a href="canes1x1.html" class="animsition-link grid-item sports">
                             <div class="work_item pointer-large hover-box hidden-box">
@@ -146,20 +175,6 @@
 										<span class="work-title-overlay work-title-delay01">Canes 4x5</span><br>
 										<span class="work-title-overlay work-title-delay02">Social Media</span><br>
 										<span class="work-title-overlay work-title-delay03">Designs</span>
-									</h3>
-                                </div>
-                            </div>
-                        </a><!-- grid-item end -->
-                        <!-- grid-item start -->
-                        <a href="icepackbrand.html" class="animsition-link grid-item sports branding">
-                            <div class="work_item pointer-large hover-box hidden-box">
-                                <img class="hover-img" src="assets/images/projects/icepack-brand/presentation.png" alt="">
-                                <div class="works-content">
-                    	            <span class="small-title-oswald red-color work-title-overlay">branding</span>
-									<h3 class="title-style text-color-4">
-										<span class="work-title-overlay work-title-delay01">Icepack</span><br>
-										<span class="work-title-overlay work-title-delay02">Hockey</span><br>
-										<span class="work-title-overlay work-title-delay03">Brand</span>
 									</h3>
                                 </div>
                             </div>
@@ -192,22 +207,6 @@
                                 </div>
                             </div>
                         </a><!-- grid-item end -->
-                        <!-- grid-item start 
-                        <a href="nhl20app.html" class="animsition-link grid-item uiux">
-                            <div class="work_item pointer-large hover-box hidden-box">
-                                <img class="hover-img" src="assets/images/projects/nhl-app/thumbnail.png" alt="">
-                                
-                                <div class="works-content">
-                    	            <span class="small-title-oswald red-color work-title-overlay">ui/ux</span>
-									<h3 class="title-style text-color-4">
-										<span class="work-title-overlay work-title-delay01">NHL 20</span><br>
-										<span class="work-title-overlay work-title-delay02">App Design</span><br>
-										<span class="work-title-overlay work-title-delay03">Concept</span>
-									</h3>
-                                </div>
-                            </div>
-                        </a>
-						grid-item end -->
 						<!-- grid-item start -->
 						<a href="nutritionlink.html" class="animsition-link grid-item branding">
 							<div class="work_item pointer-large hover-box hidden-box">
@@ -237,21 +236,6 @@
                                 </div>
                             </div>
                         </a><!-- grid-item end -->
-						<!-- grid-item start
-                        <a href="innovative.html" class="animsition-link grid-item uiux">
-                            <div class="work_item pointer-large hover-box hidden-box">
-                                <img class="hover-img" src="assets/images/projects/innovative/thumbnail.png" alt=""> 
-                                <div class="works-content">
-                    	            <span class="small-title-oswald red-color work-title-overlay">ui/ux</span>
-									<h3 class="title-style text-color-4">
-										<span class="work-title-overlay work-title-delay01">Innovative</span><br>
-										<span class="work-title-overlay work-title-delay02">Product</span><br>
-										<span class="work-title-overlay work-title-delay03">Designs</span>
-									</h3>
-                                </div>
-                            </div>
-                        </a>
-						grid-item end -->
 						<!-- grid-item start -->
                         <a href="pescarodb.html" class="animsition-link grid-item branding">
                             <div class="work_item pointer-large hover-box hidden-box">
@@ -283,14 +267,7 @@
 						</a><!-- grid-item end -->
                     </div><!-- works end -->	
                 </div><!-- container end -->       
-			</section><!-- dark-bg-2 end -->
-			
-			<!-- More Coming Soon Section
-				<div class="text-center top-bottom-padding-120 red-bg" data-midnight="black">	
-					<span class="overlay-btn" data-text="loading more">more coming soon</span>
-				</div>
-			-->
-			
+			</section><!-- dark-bg-2 end -->	
 		</main><!-- animsition-overlay end -->
 		
 		<!-- footer start -->
@@ -300,7 +277,7 @@
 				<!-- column start -->
 				<div class="two-columns bottom-padding-60">
 					<div class="content-right-margin-10 footer-center-mobile">
-						<img class="footer-logo" src="assets/images/logo/logo-white.png" alt="logo">
+						<img class="footer-logo" src="assets/images/logo/logo-on-dark.svg" alt="logo">
 					</div>
 				</div><!-- column end -->
 				<!-- column start -->
