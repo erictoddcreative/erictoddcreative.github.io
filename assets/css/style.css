@@ -569,6 +569,11 @@ h6 {
 	margin-top: 5px;
 }
 
+.content-left-right-margin-100 {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
 .content-left-right-margin-50 {
 	margin-left: 50px;
 	margin-right: 50px;
@@ -581,6 +586,7 @@ h6 {
 .content-left-margin-50 {
 	margin-left: 50px;
 }
+
 
 .content-left-right-margin-45 {
 	margin-left: 45px;
